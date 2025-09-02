@@ -47,13 +47,6 @@
 
 Follow these simple steps to get the project up and running.
 
-### Clone the Repository
-
-```bash
-git clone https://github.com/Schpser/holbertonschool-higher_level_programming.git
-cd holbertonschool-higher_level_programming
-```
-
 ### Make Scripts Executable
 
 ```bash
