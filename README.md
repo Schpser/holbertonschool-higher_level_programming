@@ -2,8 +2,6 @@
 
 ## 📘 Learning Objectives
 
-After completing this project, you will confidently explain these concepts without Google's help:
-
 - **Using Python's interpreter effectively:** Master the command-line interface for quick testing and execution.
 - **Printing text and variables:** Become proficient with the `print()` function.
 - **String manipulation:** Learn essential techniques for working with strings, including concatenation and formatting.
