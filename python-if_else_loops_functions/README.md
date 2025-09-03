@@ -1,3 +1,5 @@
+![alt text](image.png)
+
 # 🐍 Python: If/Else, Loops, and Functions
 
 Welcome to a series of exercises designed to build a solid foundation in Python programming. This project focuses on core concepts like control flow, loops, and functions.
@@ -34,43 +36,18 @@ Welcome to a series of exercises designed to build a solid foundation in Python 
 
 Below is an array of tasks to complete for this project:
 
-```python
-tasks = [
-        "Positive anything is better than negative nothing",
-        "The last digit",
-        "I sometimes suffer from insomnia...",
-        "When I was having that alphabet soup...",
-        "Hexadecimal printing",
-        "00...99",
-        "Inventing is a combination of brains...",
-        "islower",
-        "To uppercase",
-        "There are only 3 colors...",
-        "a + b",
-        "a ^ b",
-        "Fizz Buzz"
-]
 ```
-
-Or, view them as a checklist:
-
-- [ ] Positive anything is better than negative nothing
-- [ ] The last digit
-- [ ] I sometimes suffer from insomnia...
-- [ ] When I was having that alphabet soup...
-- [ ] Hexadecimal printing
-- [ ] 00...99
-- [ ] Inventing is a combination of brains...
-- [ ] islower
-- [ ] To uppercase
-- [ ] There are only 3 colors...
-- [ ] a + b
-- [ ] a ^ b
-- [ ] Fizz Buzz
-
----
-
-> **Tip:**  
-> Remember to test your code and check for style compliance before submitting!
-
----
+     0    "Positive anything is better than negative nothing",
+     1    "The last digit",
+     2    "I sometimes suffer from insomnia...",
+     3    "When I was having that alphabet soup...",
+     4    "Hexadecimal printing",
+     5    "00...99",
+     6    "Inventing is a combination of brains...",
+     7    "islower",
+     8    "To uppercase",
+     9    "There are only 3 colors...",
+    10    "a + b",
+    11    "a ^ b",
+    12    "Fizz Buzz"
+```
