@@ -1,4 +1,4 @@
-![alt text](image.png)
+<img src="./image.png" alt="Description de l'image">
 
 # 🐍 Python: If/Else, Loops, and Functions
 
