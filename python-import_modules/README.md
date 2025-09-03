@@ -1,4 +1,4 @@
-<img src="/root/holbertonschool-higher_level_programming/python-import_modules/Import_and_Modules.png" alt="Import and Modules">
+<img src="./Import_and_Modules.png" alt="Import and Modules">
 
 # Python: Modules and Command Line Arguments 📦
 
