@@ -10,8 +10,8 @@ last_digit = abs(number) % 10 if number >= 0 else -(-number % 10)
 
 print(f"{str} {number} is {last_digit}", end=" ")
 if last_digit > 5:
-	print(str_1)
+    print(str_1)
 elif last_digit == 0:
-	print(str_2)
+    print(str_2)
 else:
-	print(str_3)
+    print(str_3)
