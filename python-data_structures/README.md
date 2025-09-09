@@ -34,74 +34,19 @@ At the end of this project, you are expected to be able to explain the following
 | Permissions      | All files must be executable      |
 | File Length      | File length will be tested using `wc` |
 
-## ✅ Tasks
+## ### 📝 Python Data Structures Tasks 
+---
 
-```markdown
-[
-    {
-        "Task Number": 0,
-        "Task Name": "Print a list of integers",
-        "Description": "Write a function that prints all integers of a list."
-    },
-    {
-        "Task Number": 1,
-        "Task Name": "Secure access to an element",
-        "Description": "Write a function that retrieves an element from a list safely."
-    },
-    {
-        "Task Number": 2,
-        "Task Name": "Replace element",
-        "Description": "Write a function that replaces an element at a given index."
-    },
-    {
-        "Task Number": 3,
-        "Task Name": "Print list in reverse",
-        "Description": "Write a function that prints all integers of a list in reverse."
-    },
-    {
-        "Task Number": 4,
-        "Task Name": "Replace in a copy",
-        "Description": "Write a function that replaces an element in a copy of a list."
-    },
-    {
-        "Task Number": 5,
-        "Task Name": "Can you C me now?",
-        "Description": "Write a function that creates a new list from a C-style list of integers."
-    },
-    {
-        "Task Number": 6,
-        "Task Name": "Lists of lists = Matrix",
-        "Description": "Write a function to print a matrix of integers."
-    },
-    {
-        "Task Number": 7,
-        "Task Name": "Tuples addition",
-        "Description": "Write a function that adds two tuples."
-    },
-    {
-        "Task Number": 8,
-        "Task Name": "More returns!",
-        "Description": "Write a function that returns a tuple with the length of a string and its first character."
-    },
-    {
-        "Task Number": 9,
-        "Task Name": "Find the max",
-        "Description": "Write a function that finds the biggest integer in a list."
-    },
-    {
-        "Task Number": 10,
-        "Task Name": "Only by 2",
-        "Description": "Write a function that finds all multiples of 2 in a list."
-    },
-    {
-        "Task Number": 11,
-        "Task Name": "Delete at",
-        "Description": "Write a function that deletes an element from a list at a specific position."
-    },
-    {
-        "Task Number": 12,
-        "Task Name": "Switch",
-        "Description": "Write a function that switches the values of two integers."
-    }
-]
-```
+* ✅ **[Task 0: Print a list of integers](https://github.com/Schpser/holbertonschool-higher_level_programming/blob/main/python-data_structures/0-print_list_integer.py)**
+* ✅ **[Task 1: Secure access to an element](https://github.com/Schpser/holbertonschool-higher_level_programming/blob/main/python-data_structures/1-element_at.py)**
+* ✅ **[Task 2: Replace element](https://github.com/Schpser/holbertonschool-higher_level_programming/blob/main/python-data_structures/3-main.py)**
+* ✅ **[Task 3: Print list in reverse](https://github.com/Schpser/holbertonschool-higher_level_programming/blob/main/python-data_structures/3-main.py)**
+* ✅ **[Task 4: Replace in a copy](https://github.com/Schpser/holbertonschool-higher_level_programming/blob/main/python-data_structures/4-new_in_list.py)**
+* ✅ **[Task 5: Can you C me now?](https://github.com/Schpser/holbertonschool-higher_level_programming/blob/main/python-data_structures/5-no_c.py)**
+* ✅ **[Task 6: Lists of lists = Matrix](https://github.com/Schpser/holbertonschool-higher_level_programming/blob/main/python-data_structures/6-print_matrix_integer.py)**
+* ✅ **[Task 7: Tuples addition](https://github.com/Schpser/holbertonschool-higher_level_programming/blob/main/python-data_structures/7-add_tuple.py)**
+* ✅ **[Task 8: More returns!](https://github.com/Schpser/holbertonschool-higher_level_programming/blob/main/python-data_structures/8-multiple_returns.py)**
+* ✅ **[Task 9: Find the max](https://github.com/Schpser/holbertonschool-higher_level_programming/blob/main/python-data_structures/9-max_integer.py)**
+* ✅ **[Task 10: Only by 2](https://github.com/Schpser/holbertonschool-higher_level_programming/blob/main/python-data_structures/10-divisible_by_2.py)**
+* ✅ **[Task 11: Delete at](https://github.com/Schpser/holbertonschool-higher_level_programming/blob/main/python-data_structures/11-delete_at.py)**
+* ✅ **[Task 12: Switch](https://github.com/Schpser/holbertonschool-higher_level_programming/blob/main/python-data_structures/12-switch.py)**
