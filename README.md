@@ -39,17 +39,13 @@ All projects within this repository adhere to the following general requirements
 
 Here's a breakdown of the projects included, in order:
 
-```markdown
-[
-    "[🐍 Python - Hello World 🌟](https://github.com/Schpser/holbertonschool-higher_level_programming/tree/main/python-hello_world)\n\nProject Description: Introduces the fundamental concepts of printing text and variables, string manipulation, indexing, and slicing. It emphasizes adhering to the PEP 8 style guide.",
-    "[🐍 Python: If/Else, Loops, and Functions 🚀](https://github.com/Schpser/holbertonschool-higher_level_programming/tree/main/python-if_else_loops_function)\n\nProject Description: Focuses on building a solid foundation in Python, covering control flow statements (if, else, for, while), function definition, variable scope, and debugging.",
-    "[🐍 Python: Modules and Command Line Arguments 📦](https://github.com/Schpser/holbertonschool-higher_level_programming/tree/main/python-import_modules)\n\nProject Description: Explores Python's modularity, enabling you to organize code, import functions and modules, create your own modules, and handle command-line arguments.",
-    "[🐍 Python - Data Structures: Lists, Tuples 🗂️](https://github.com/Schpser/holbertonschool-higher_level_programming/tree/main/python-data_structures)\n\nProject Description: Focuses on Python's core data structures: lists and tuples. Exercises cover creation, manipulation, and effective use, including slicing, list comprehensions, and sequence unpacking.",
-    "[🐍 Python - More Data Structures 📊](https://github.com/Schpser/holbertonschool-higher_level_programming/tree/main/python-more_data_structures)\n\nProject Description: Delves into more advanced data structures like sets and dictionaries, and introduces functional programming concepts like lambda functions, map, reduce, and filter.",
-    "[🐍 Python Exceptions ⚠️](https://github.com/Schpser/holbertonschool-higher_level_programming/tree/main/python-exceptions)\n\nProject Description: Focuses on understanding and implementing exception handling in Python. You'll learn to differentiate between errors and exceptions, use try, except, and finally blocks, and raise built-in exceptions.",
-    "[Python Test Driven Development Project 🧪](https://github.com/Schpser/holbertonschool-higher_level_programming/tree/main/python-test_driven_development)\n\nProject Description: This project focuses on writing Python code using the Test-Driven Development (TDD) methodology. It includes modules for common operations and corresponding unit tests."
-]
-```
+- [Python - Hello World](https://github.com/Schpser/holbertonschool-higher_level_programming/tree/main/python-hello_world)
+- [Python: If/Else, Loops, and Functions](https://github.com/Schpser/holbertonschool-higher_level_programming/tree/main/python-if_else_loops_function)
+- [Python: Modules and Command Line Arguments](https://github.com/Schpser/holbertonschool-higher_level_programming/tree/main/python-import_modules)
+- [Python - Data Structures: Lists, Tuples](https://github.com/Schpser/holbertonschool-higher_level_programming/tree/main/python-data_structures)
+- [Python - More Data Structures](https://github.com/Schpser/holbertonschool-higher_level_programming/tree/main/python-more_data_structures)
+- [Python Exceptions](https://github.com/Schpser/holbertonschool-higher_level_programming/tree/main/python-exceptions)
+- [Python Test Driven Development Project](https://github.com/Schpser/holbertonschool-higher_level_programming/tree/main/python-test_driven_development)
 
 ## 🚀 Getting Started
 
