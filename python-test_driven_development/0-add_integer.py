@@ -2,5 +2,5 @@
 """Module for adding integers"""
 
 def add_integer(a, b=98):
-    """Adds two integers"""
-    pass
+    """Returns an addition of two integers"""
+    return a + b
