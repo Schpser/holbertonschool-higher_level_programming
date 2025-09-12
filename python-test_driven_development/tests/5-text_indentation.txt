@@ -46,6 +46,12 @@ text must be a string
 text must be a string
 
 >>> try:
+...     text_indentation()
+... except TypeError as e:
+...     print(e)
+text_indentation() missing 1 required positional argument: 'text'
+
+>>> try:
 ...     text_indentation(["list"])
 ... except Exception as e:
 ...     print(e)

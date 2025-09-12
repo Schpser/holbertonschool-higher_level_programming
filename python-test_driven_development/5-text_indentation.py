@@ -11,14 +11,14 @@ def text_indentation(text):
     """
     if not isinstance(text, str):
         raise TypeError("text must be a string")
-    
+
     if text == "":
         return
-    
+
     result = ""
     i = 0
     n = len(text)
-    
+
     while i < n:
         result += text[i]
         if text[i] in ".?:":
