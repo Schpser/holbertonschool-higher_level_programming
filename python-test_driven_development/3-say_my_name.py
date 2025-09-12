@@ -12,10 +12,9 @@ def say_my_name(first_name, last_name=""):
     Args:
         first_name: first name string
         last_name: last name string (optional)
-        
+
     Returns:
         None.
-    
     Raises:
         TypeError: if first_name or last_name are not strings
     """
