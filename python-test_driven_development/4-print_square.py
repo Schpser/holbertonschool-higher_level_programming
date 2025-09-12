@@ -22,7 +22,7 @@ def print_square(size):
         ####
         ####
         ####
-        
+
         >>> print_square(1)
         #
     """
