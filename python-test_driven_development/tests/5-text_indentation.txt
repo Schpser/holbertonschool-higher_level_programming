@@ -1,0 +1,68 @@
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+>>> text_indentation("Hello. World? How: are you")
+Hello.
+<BLANKLINE>
+World?
+<BLANKLINE>
+How:
+<BLANKLINE>
+are you
+
+>>> text_indentation("Simple test.")
+Simple test.
+<BLANKLINE>
+
+>>> text_indentation("One? Two. Three:")
+One?
+<BLANKLINE>
+Two.
+<BLANKLINE>
+Three:
+<BLANKLINE>
+
+>>> text_indentation("No punctuation here")
+No punctuation here
+
+>>> text_indentation("")
+>>>  # No output expected
+
+>>> text_indentation("   Spaces before.   After.   ")
+   Spaces before.
+<BLANKLINE>
+After.
+<BLANKLINE>
+
+>>> try:
+...     text_indentation(123)
+... except Exception as e:
+...     print(e)
+text must be a string
+
+>>> try:
+...     text_indentation(None)
+... except Exception as e:
+...     print(e)
+text must be a string
+
+>>> try:
+...     text_indentation(["list"])
+... except Exception as e:
+...     print(e)
+text must be a string
+
+>>> text_indentation("Multiple... punctuation?? Yes::")
+Multiple.
+<BLANKLINE>
+.
+<BLANKLINE>
+.
+<BLANKLINE>
+punctuation?
+<BLANKLINE>
+?
+<BLANKLINE>
+Yes:
+<BLANKLINE>
+:
+<BLANKLINE>
