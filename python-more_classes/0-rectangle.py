@@ -4,4 +4,6 @@
 
 
 class Rectangle:
+    """Create an empty class called Rectangle"""
+
     pass
