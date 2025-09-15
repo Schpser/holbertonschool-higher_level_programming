@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
-''' Create a Square instance that defines a Square '''
+'''Create a Square instance that defines a Square.'''
+
+
 class Square:
     """Define a Square"""
     def __init__(self, size=0):
