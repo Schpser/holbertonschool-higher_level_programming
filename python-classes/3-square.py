@@ -3,5 +3,27 @@
 # Write an empty class Square that defines a square
 
 class Square:
-    """Empty class Square"""
-    pass
+    """Class Square with size validation"""
+    def __init__(self, size=0):
+        """Initialize Square with optional size and validation
+
+        Args:
+            size (int, optional): size of the square. Defaults to 0.
+
+        Raises:
+            TypeError: if size is not an integer
+            ValueError: if size is less than 0
+        """
+        if not isinstance(size, int):
+            raise TypeError("size must be an integer")
+        if size < 0:
+            raise ValueError("size must be >= 0")
+        self.__size = size
+
+    def area(self):
+        """Calculate and return the current square area
+
+        Returns:
+            int: area of the square (size * size)
+        """
+        return self.__size ** 2
