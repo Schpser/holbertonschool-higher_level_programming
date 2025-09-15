@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# Write an empty class Square that defines a square
+'''Write an empty class Square that defines a square.'''
 
 class Square:
     """Class Square with size validation"""
