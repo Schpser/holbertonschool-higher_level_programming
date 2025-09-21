@@ -1,12 +1,14 @@
 >>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
 >>> bg = BaseGeometry()
 
+>>> # Test area()
 >>> try:
 ...     bg.area()
 ... except Exception as e:
 ...     print("[{}] {}".format(e.__class__.__name__, e))
 [Exception] area() is not implemented
 
+>>> # Test integer_validator
 >>> bg.integer_validator("age", 4)
 
 >>> try:
@@ -48,7 +50,7 @@
 >>> try:
 ...     bg.integer_validator("age", None)
 ... except Exception as e:
-...     print("[{}] {}".format(e.__class__.__name__, e))
+...     print("[{}] {}".format(type(e).__name__, e))
 [TypeError] age must be an integer
 
 >>> bg.integer_validator("width", 10)
