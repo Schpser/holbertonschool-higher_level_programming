@@ -54,9 +54,9 @@ TypeError: integer_validator() missing 2 required positional arguments: 'name' a
 ...     print("[{}] {}".format(type(e).__name__, e))
 [TypeError] test must be an integer
 
->>> bg.integer_validator("test", "John")
+>>> bg.integer_validator("name", "John")
 Traceback (most recent call last):
-TypeError: test must be an integer
+TypeError: name must be an integer
 
 >>> bg.integer_validator("age", None)
 Traceback (most recent call last):
