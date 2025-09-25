@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module documentation"""
+"""Function that returns an instance & components"""
 
 
 def is_kind_of_class(obj, a_class):
