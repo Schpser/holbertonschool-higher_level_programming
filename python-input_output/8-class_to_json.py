@@ -1,4 +1,4 @@
-#!usr/bin/pyton3
+#!/usr/bin/pyton3
 """Create a function that return a dictionary description"""
 
 
