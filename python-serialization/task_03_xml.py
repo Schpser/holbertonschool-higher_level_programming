@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Module for serializing a dictionary to an XML file. """
+""" Module for (de)serialize XML file. """
 
 import xml.etree.ElementTree as ET
 
