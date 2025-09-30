@@ -14,7 +14,9 @@ class CustomObject():
             pickle.dump(self, file)
 
     def display(self):
-        print(f"Name: {self.name}, Age: {self.age}, is_student: {True if self.is_student else False}")
+        print(f"Name: {self.name}")
+        print(f"Age: {self.age}")
+        print(f"is_student: {True if self.is_student else False}")
 
     @classmethod
     def deserialize(cls, filename):
