@@ -8,6 +8,9 @@ CREATE TABLE second_table (
     score INT
 );
 
+-- DELETE OLD DATAS;
+DELETE FROM second_table WHERE id IN (1, 2, 3, 4);
+
 --ADD ROWS;
 INSERT INTO second_table (id, name, score) VALUES 
 (1, 'John', 10),
