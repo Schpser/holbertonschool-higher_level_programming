@@ -1,3 +1,3 @@
 USE hbtn_0c_0
 
-SHOW TABLES
+SELECT * FROM second_table;

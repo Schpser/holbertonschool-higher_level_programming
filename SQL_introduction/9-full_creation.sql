@@ -1,4 +1,5 @@
--- CREATE TABLE IF NOT EXISTS second_table
+DROP TABLE IF EXISTS second_table;
+
 CREATE TABLE second_table (
     id INT,
     name VARCHAR(256),
