@@ -1,0 +1,5 @@
+-- DISPLAY SCORE + NAME IN DESCENDING ORDER WHEN NAME IS NOT NULL;
+SELECT score, name
+FROM second_table
+WHERE name IS NOT NULL AND name != ''
+ORDER BY score DESC;
