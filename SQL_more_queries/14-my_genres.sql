@@ -1,6 +1,6 @@
 -- LIST ALL GENRES OF SHOW 'DEXTER';
 SELECT 
-    tv_genres.name AS genre
+    tv_genres.name AS name
 
 FROM tv_genres, tv_shows, tv_show_genres
 WHERE tv_genres.id = tv_show_genres.genre_id 
