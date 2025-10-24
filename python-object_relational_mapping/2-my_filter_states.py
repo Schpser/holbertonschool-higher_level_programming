@@ -6,7 +6,7 @@ import MySQLdb
 import sys
 
 if __name__ == "__main__":
-    if (sys.argv) != 5:
+    if len(sys.argv) != 5:
         pass
 
     db = MySQLdb.connect(
