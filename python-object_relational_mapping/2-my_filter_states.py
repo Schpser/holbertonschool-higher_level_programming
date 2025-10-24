@@ -14,16 +14,17 @@ if __name__ == "__main__":
         port=3306,
         user=sys.argv[1],
         passwd=sys.argv[2],
-        db=sys.argv[3]
+        db=sys.argv[3],
+        state_name=sys.argv[4]
     )
 
     cur = db.cursor()
+
     query = "SELECT * FROM states WHERE name = '{}'"\
             " ORDER BY id ASC;".format(sys.argv[4])
     cur.execute(query)
 
-    results = cur.fetchall()
-    for row in results:
+    for row in cur.fetchall():
         print(row)
 
     cur.close()
