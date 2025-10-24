@@ -1,4 +1,4 @@
-# Background Context
+# 📚 <u>Background Context</u>
 
 In this project, you will link two amazing worlds: Databases and Python!
 
@@ -8,17 +8,17 @@ In the second part, you will use the module SQLAlchemy (don’t ask me how to pr
 
 The biggest difference is: no more SQL queries! Indeed, the purpose of an ORM is to abstract the storage to the usage. With an ORM, your biggest concern will be “What can I do with my objects” and not “How this object is stored? where? when?”. You won’t write any SQL queries only Python code. Last thing, your code won’t be “storage type” dependent. You will be able to change your storage easily without re-writing your entire project.
 
-# Learning Objectives
+# 🎯 <u>Learning Objectives</u>
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-## General
+## 📌 <u>General</u>
 - How to connect to a MySQL database from a Python script
 - How to SELECT rows in a MySQL table from a Python script
 - How to INSERT rows in a MySQL table from a Python script
 - What ORM means
 - How to map a Python Class to a MySQL table
 
-## Requirements General
+## 📋 <u>Requirements General</u>
 Allowed editors: vi, vim, emacs
 All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
 Your files will be executed with MySQLdb version 2.0.x
@@ -35,7 +35,7 @@ All your functions (inside and outside a class) should have a documentation (pyt
 A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
 You are not allowed to use execute with sqlalchemy
 
-### Install MySQL 8.0 on Ubuntu 20.04 LTS
+### 🐬 <u>Install MySQL 8.0 on Ubuntu 20.04 LTS</u>
 
 ``` 
 $ sudo apt update
@@ -46,7 +46,7 @@ mysql  Ver 8.0.25-0ubuntu0.20.04.1 for Linux on x86_64 ((Ubuntu))
 $ 
 ```
 
-### Connect to your MySQL server:
+### 🔌 <u>Connect to your MySQL server:</u>
 
 ``` 
 $ sudo mysql
@@ -68,7 +68,7 @@ Bye
 $ 
 ```
 
-### Install MySQLdb module version 2.0.x
+### 📦 <u>Install MySQLdb module version 2.0.x</u>
 
 For installing MySQLdb, you need to have MySQL installed.
 
@@ -98,7 +98,7 @@ Also, you can have this warning message:
   cursor.execute(statement, parameters)
 ```
 
-### Tasks
+### ✅ <u>Tasks</u>
 
     0. Get all states
     1. Filter states
