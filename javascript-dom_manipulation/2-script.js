@@ -1,3 +1,6 @@
+const redHeaderButton = document.querySelector('#red_header');
+const header = document.querySelector('header');
 
-
-header.classList.add('red');
+redHeaderButton.addEventListener('click', function() {
+  header.classList.add('red');
+});
