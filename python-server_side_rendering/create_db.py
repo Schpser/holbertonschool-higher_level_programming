@@ -3,8 +3,7 @@ import sqlite3
 def create_database():
     conn = sqlite3.connect('products.db')
     cursor = conn.cursor()
-    
-    # Créer la table
+
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS Products (
             id INTEGER PRIMARY KEY,
@@ -13,8 +12,7 @@ def create_database():
             price REAL NOT NULL
         )
     ''')
-    
-    # Insérer des données
+
     cursor.execute('''
         INSERT OR REPLACE INTO Products (id, name, category, price)
         VALUES
@@ -24,7 +22,7 @@ def create_database():
     
     conn.commit()
     conn.close()
-    print("Base de données créée avec succès!")
+    print("Database Succesfully created!")
 
 if __name__ == '__main__':
     create_database()
