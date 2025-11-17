@@ -1,5 +1,3 @@
-#usr/bin/python3
-
-class LockedClass :
-    """ Class with no object """
+#!/usr/bin/python3
+class LockedClass:
     __slots__ = ['first_name']
